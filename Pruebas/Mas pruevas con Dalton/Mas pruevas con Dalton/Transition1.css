@@ -1,0 +1,49 @@
+* {
+    font-family: "sen", sans-serif;
+    font-weight: 100;
+}
+
+.Content {
+    background-color: slateblue;
+    padding: 20px 5px;
+}
+
+.Caja {
+    background-color: rgb(71, 77, 64);
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    transition-property: left background;
+    transition-duration: 5s, 1s;
+    position: relative;
+    left: 0;
+}
+
+.Content:hover > .Caja {
+    left: 80%;
+    background-color: #fff;
+}
+
+.Caja:first-child {
+    transition-timing-function: linear;
+}
+
+.Caja:nth-child(2) {
+    transition-timing-function: ease;
+
+}
+
+.Caja:nth-child(3) {
+    transition-timing-function: ease-in;
+    
+}
+
+.Caja:nth-child(4) {
+    transition-timing-function: ease-out;
+    
+}
+
+.Caja:nth-child(5) {
+    transition-timing-function: ease-in-out;
+    
+}

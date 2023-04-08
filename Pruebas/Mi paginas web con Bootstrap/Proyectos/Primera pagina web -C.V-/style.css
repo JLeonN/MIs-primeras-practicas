@@ -1,0 +1,134 @@
+#fondo {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/e837fdededa4bb43b70e418b782925bf/eec1132b-66db-45f5-9e37-8c17a630a01f_rwc_0x72x3200x264x3200.png?h=a00f33de3f9e482f41a77636afc4744e);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: rgb(13, 5, 57);
+    text-shadow: black 6px 6px 6px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: #f8e8e8;
+}
+
+.Titulo {
+    font-weight: 700;
+    color: #3ec5ae;
+    text-decoration: underline;
+}
+
+.Negrita {
+    font-weight: 700;
+}
+
+.cuadrado1 {
+    width: 48%;
+    height: 450px;
+    background-color: #fff;
+    float: left;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.cuadrado2 {
+    width: 48%;
+    height: 450px;
+    background-color: #fff;
+    float: right;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.DiplomaShimano1 {
+    width: 45%;
+    height: 45%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 500px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.DiplomaShimano2 {
+    width: 45%;
+    height: 45%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.DiplomaBrother1 {
+    width: 45%;
+    height: 45%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.DiplomaBrother2 {
+    width: 45%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.img1, .img2, .img3, .img4 {
+    width: 100%;
+}
+
+footer {
+    font-weight: 800;
+    width: 99%;
+    height: 150px;
+    background-color: #fff;
+    /* float: left; */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.Irarriba {
+    float: right;
+    display: block;
+    width: 80px;
+    font-weight: 700;
+    color: #fff;
+    background-color: brown;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.Irarriba:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: brown;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.483);
+}
+
+.Irarriba:active {
+    background-color: transparent;
+    border: 2px solid #fdf503;
+    color: rgb(25, 249, 9);
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.483);
+}

@@ -1,0 +1,31 @@
+.flex-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    height: 100vh;
+}
+
+.Primer-item {
+    background-color: blueviolet;
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    flex-grow: 1;
+}
+
+.Primer-itemColor1 {
+    background-color: rgb(222, 190, 253);
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.Primer-itemColor2 {
+    background-color: rgb(242, 8, 67);
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+
+
+}

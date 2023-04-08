@@ -1,0 +1,1348 @@
+body {
+    background-color: #0000002a;
+}
+
+.Foto1 {
+    width: 100%;
+}
+
+.Intro {
+    width: 100%;
+    margin: 2px;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
+}
+
+.Empieza1 {
+    position: relative;
+    bottom: 250px;
+    left: 100px;
+}
+
+.Botones {
+    width: 250px;
+    font-size: 30px;
+    font-weight: 700;
+    border: 2px solid #000000;
+    color: #1b0909;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.Botones:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 255, 255);
+}
+
+.Todo {
+    text-align: center;
+}
+
+.Titulo {
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #ee383896;
+}
+
+.Laberinto3 {
+    width: 800px;
+    margin: 2px;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
+    margin: 50px auto;
+    position: relative;
+}
+
+.FotoLaberinto {
+    width: 800px;
+}
+
+.Eligeuncamino {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Comenzar {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ee3838;
+    background-color: rgb(149, 144, 144);
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.Jugador1 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 159px;
+}
+
+.Jugador2 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 212px;
+    right: 639px;
+}
+
+.Jugador3 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 212px;
+    right: 675px;
+}
+
+.Jugador4 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 528px;
+    right: 633px;
+}
+
+.Jugador5 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 555px;
+    right: 633px;
+}
+
+.Jugador6 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 645px;
+    right: 427px;
+}
+
+.Jugador7 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 627px;
+    right: 430px;
+}
+
+.Jugador8 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 528px;
+    right: 633px;
+}
+
+.Jugador12 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 525px;
+    right: 390px;
+}
+
+.Jugador10 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 315px;
+    right: 630px;
+}
+
+.Jugador13 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 319px;
+    right: 475px;
+}
+
+.Jugador14 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 490px;
+    right: 268px;
+}
+
+.Jugador15 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 631px;
+    right: 34px;
+}
+
+.Jugador16 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 637px;
+    right: 788px;
+}
+
+.Jugador17 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 433px;
+    right: 755px;
+}
+
+
+.Jugador18 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 400px;
+    right: 756px;
+}
+
+.Jugador19 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 321px;
+    right: 785px;
+}
+
+.Jugador20 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 317px;
+    right: 34px;
+}
+
+.Jugador21 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 576px;
+    right: 58px;
+}
+
+.Jugador22 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 300px;
+    right: 216px;
+}
+
+.Jugador23 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 108px;
+    right: 30px;
+}
+
+.Jugador24 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 108px;
+    right: 785px;
+}
+
+
+.Jugador25 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 108px;
+    right: 545px;
+}
+
+.Jugador26 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 115px;
+    right: 385px;
+}
+
+.Jugador27 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 77px;
+    right: 71px;
+}
+
+.Jugador30 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 690px;
+    right: 466px;
+}
+
+.Jugador33 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 108px;
+    right: 490px;
+}
+
+.Jugador34 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 527px;
+    right: 445px;
+}
+
+.Jugador35 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 637px;
+    right: 322px;
+}
+
+.Jugador36 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 780px;
+    right: 280px;
+}
+
+.Jugador37 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 20px;
+    right: 178px;
+}
+
+.Jugador38 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 37px;
+    right: 499px;
+}
+
+.Jugador39 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 195px;
+    right: 499px;
+}
+
+.Jugador40 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 354px;
+    right: 775px;
+}
+
+.Jugador41 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 349px;
+    right: 35px;
+}
+
+.Jugador42 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 345px;
+    right: 115px;
+}
+
+.Jugador43 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 349px;
+    right: 189px;
+}
+
+.Jugador46 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 195px;
+    right: 533px;
+}
+
+.Jugador47 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 195px;
+    right: 788px;
+}
+
+.Jugador48 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 215px;
+    right: 15px;
+}
+
+.Jugador49 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 311px;
+    right: 115px;
+}
+
+.Jugador50 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 88px;
+    right: 20px;
+}
+
+.Jugador51 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 88px;
+    right: 790px;
+}
+
+.Jugador52 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    right: 650px;
+}
+
+.Jugador53 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 790px;
+    right: 779px;
+}
+
+.Jugador54 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 786px;
+    right: 22px;
+}
+
+.Jugador55 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 777px;
+    right: 270px;
+}
+
+.Jugador56 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    right: 270px;
+}
+
+.Jugador57 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 247px;
+    right: 325px;
+}
+
+.Jugador58 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 240px;
+    right: 529px;
+}
+
+.Jugador59 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    right: 585px;
+}
+
+.Jugador60 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 777px;
+    right: 583px;
+}
+
+.Jugador61 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 715px;
+    right: 739px;
+}
+
+.Jugador107 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 285px;
+    right: 325px;
+}
+
+.Jugador108 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 554px;
+    right: 430px;
+}
+
+.Jugador109 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 245px;
+    right: 615px;
+}
+
+.Jugador110 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 605px;
+    right: 630px;
+}
+
+.Jugador111 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 610px;
+    right: 530px;
+}
+
+.Jugador112 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 610px;
+    right: 299px;
+}
+
+.Jugador113 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 402px;
+    right: 269px;
+}
+
+.Jugador114 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 095px;
+    right: 320px;
+}
+
+.Jugador115 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 005px;
+    right: 220px;
+}
+
+.Jugador116 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 785px;
+    right: 218px;
+}
+
+.Jugador117 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 639px;
+    right: 530px;
+}
+
+.Jugador118 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 660px;
+    right: 222px;
+}
+
+.Jugador119 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 711px;
+    right: 580px;
+}
+
+.Jugador120 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 713px;
+    right: 662px;
+}
+
+.Jugador121 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 688px;
+    right: 739px;
+}
+
+.Jugador136 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 402px;
+    right: 244px;
+}
+
+.Jugador139 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 557px;
+    right: 166px;
+}
+
+.Jugador140 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 453px;
+    right: 60px;
+}
+
+.Jugador141 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 649px;
+    right: 15px;
+}
+
+.Jugador142 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 669px;
+    right: 799px;
+}
+
+.Jugador143 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 669px;
+    right: 620px;
+}
+
+.Jugador144 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 469px;
+    right: 600px;
+}
+
+.Jugador145 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 455px;
+    right: 445px;
+}
+
+.Jugador146 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 250px;
+    right: 439px;
+}
+
+.Jugador147 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 250px;
+    right: 234px;
+}
+
+.Jugador148 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 377px;
+    right: 230px;
+}
+
+.Jugador164 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 458px;
+    right: 399px;
+}
+
+.Jugador166 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 458px;
+    right: 350px;
+}
+
+.Jugador167 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 455px;
+    right: 338px;
+}
+
+
+.Jugador168 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 450px;
+    right: 338px;
+}
+
+
+.Jugador169 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 445px;
+    right: 338px;
+}
+
+
+.Jugador170 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 440px;
+    right: 338px;
+}
+
+
+.Jugador171 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 435px;
+    right: 338px;
+}
+
+
+.Jugador172 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 430px;
+    right: 338px;
+}
+
+
+.Jugador173 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 425px;
+    right: 338px;
+}
+
+
+.Jugador174 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 420px;
+    right: 338px;
+}
+
+
+.Jugador175 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 415px;
+    right: 338px;
+}
+
+
+.Jugador176 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 410px;
+    right: 338px;
+}
+
+
+.Jugador177 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 405px;
+    right: 338px;
+}
+
+
+.Jugador178 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 400px;
+    right: 338px;
+}
+
+
+.Jugador179 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 395px;
+    right: 338px;
+}
+
+
+.Jugador180 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 390px;
+    right: 338px;
+}
+
+
+.Jugador181 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 385px;
+    right: 338px;
+}
+
+
+.Jugador182 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 380px;
+    right: 338px;
+}
+
+
+.Jugador183 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 375px;
+    right: 338px;
+}
+
+
+.Jugador184 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 370px;
+    right: 338px;
+}
+
+
+.Jugador185 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 365px;
+    right: 338px;
+}
+
+
+.Jugador186 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 360px;
+    right: 338px;
+}
+
+
+.Jugador187 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 355px;
+    right: 338px;
+}
+
+
+.Jugador188 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 350px;
+    right: 338px;
+}
+
+
+.Jugador189 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 345px;
+    right: 338px;
+}
+
+
+.Jugador190 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 335px;
+    right: 338px;
+}
+
+
+.Jugador191 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 330px;
+    right: 338px;
+}
+
+.Jugador192 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 310px;
+    right: 338px;
+}
+
+.Jugador193 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 300px;
+    right: 322px;
+}
+
+.Jugador194 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 300px;
+    right: 288px;
+}
+
+.Jugador195 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 400px;
+    right: 283px;
+}
+
+.Jugador196 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 458px;
+    right: 229px;
+}
+
+.Jugador197 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 353px;
+    right: 133px;
+}
+
+.Jugador198 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 563px;
+    right: 133px;
+}
+
+.Jugador199 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 563px;
+    right: 388px;
+}
+
+.Jugador200 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 633px;
+    right: 231px;
+}
+
+.Jugador201 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 722px;
+    right: 355px;
+}
+
+.Jugador202 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 788px;
+    right: 125px;
+}
+
+.Jugador208 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 380px;
+    right: 385px;
+}
+
+.Jugador209 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 330px;
+    right: 388px;
+}
+
+.Jugador213 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 133px;
+    right: 479px;
+}
+
+.Jugador214 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 110px;
+    right: 455px;
+}
+
+.Jugador217 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 55px;
+    right: 430px;
+}
+
+.Jugador218 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 60px;
+    right: 580px;
+}
+
+.Jugador219 {
+    background-color: rgb(255, 8, 4);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 108px;
+    right: 566px;
+}
