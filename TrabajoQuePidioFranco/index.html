@@ -9,13 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Titulo -->
-    <title>Tareas</title>
+    <title>Lista de tareas</title>
 
     <!-- Icono de titulo -->
     <link rel="icon" type="imag/x-icon" href="Imagenes/Tareas .jpg">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     
     <!-- CSS -->
     <link href="Archivos/style.css" rel="stylesheet">
@@ -23,14 +24,37 @@
     <!-- Google Fonts -->
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
-        <a href="#" class=""></a>
-    </nav>
-    
+    <section class="container">
+        
+        <!-- Perfil -->
+        <div class="perfil">
+            <div id="fecha"></div>
+            <h1>Hola</h1>
+            <span>Vamos a cumplir tus metas</span>
+        </div>
+        
+        <!-- Agregar tarea -->
+        <div class="agregarTarea">
+            <input type="text" id="input" placeholder="Agregar tarea">
+            <i class="bi bi-plus-circle"></i>
+        </div>
+
+        <!-- Lista de tareas -->
+        <div class="seccionTarea">
+            <h3>estas son tus tareas pendientes</h3>
+            <ul id="lista">
+                <li>
+                    <i class="bi bi-circle" data="realizado" id="0"></i>
+                    <p class="text">comer</p>
+                    <i class="bi bi-trash" data="eliminado" id="0"></i>
+                </li>
+            </ul>
+        </div>
+    </section>
 
 
 
-
+    <script src="Archivos/JavaS.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
