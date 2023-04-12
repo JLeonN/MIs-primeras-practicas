@@ -94,6 +94,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 5px 0;
+    color: var(--white);
 }
 
 .seccionTarea i {
