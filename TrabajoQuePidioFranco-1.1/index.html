@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Jorge Leonardo Nùñez">
+    <meta name="description" content="Portafolio de desarrollo wed de Leo">
+    <meta name="keywrds" content="HTML, CSS, Bootstrap, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Titulo -->
+    <title>Aplicación de Tareas - 1.1</title>
+
+    <!-- Icono de titulo -->
+    <link rel="icon" type="imag/x-icon" href="Imagenes/Tareas .jpg">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link href="Archivos/style.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegacion -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+        <a href="#" class="navbar-brand">Aplicación de Tareas</a>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="formTask">
+                            <div class="form-group">
+                                <input type="text" id="title" placeholder="add A Todo" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="description" rows="8" cols="80" class="form-control" placeholder="..."></textarea>
+                            </div>
+                            <button id="boton" class="btn btn-primary btn-block">
+                                Guardar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div id="tasks">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="Archivos/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
