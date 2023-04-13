@@ -33,43 +33,38 @@ function getTasks() {
 
     tasksView.innerHTML = '';
 
-    for(let tarea of tasks) {
-        let titel = tarea.titel;
-
-        tasksView.innerHTML += `<div class="card mb-3">
-        <div class="card-body">
-            <p>${titel} <br> ${tarea.description}</p>
-            <a class="btn btn-danger" onclick="deleteTasks('${titel}')">
-            Borrar
-            </a>
-        </div>
-    </div>`
-    }
-
-
-
-    // for(let i = 0; i < tasks.length; i++) {
-    //     let titel = tasks[i].titel;
-    //     let description = tasks[i].description;
+    // for(let tarea of tasks) {
+    //     let titel = tarea.titel;
 
     //     tasksView.innerHTML += `<div class="card mb-3">
-    //                                 <div class="card-body">
-    //                                     <p>${titel} - ${description}</p>
-    //                                     <a class="btn btn-danger" onclick="deleteTasks('${titel}')">
-    //                                     Borrar
-    //                                     </a>
-    //                                 </div>
-    //                             </div>`
+    //     <div class="card-body">
+    //         <p>${titel} <br> ${tarea.description}</p>
+    //         <a class="btn btn-danger" onclick="deleteTasks('${titel}')">
+    //         Borrar
+    //         </a>
+    //     </div>
+    // </div>`
     // }
+
+    for(let i = 0; i < tasks.length; i++) {
+        let titel = tasks[i].titel;
+        let description = tasks[i].description;
+
+        tasksView.innerHTML += `<div class="card mb-3">
+                                    <div class="card-body">
+                                        <p>${titel} <br> ${description}</p>
+                                        <a class="btn btn-danger" onclick="deleteTasks('${i}')">
+                                        Borrar
+                                        </a>
+                                    </div>
+                                </div>`
+    }
 }
 
-function deleteTasks(titel) {
+function deleteTasks(i) {
     let task = JSON.parse(localStorage.getItem('tasks'));
-    for(let i =0; i < task.length; i++) {
-        if (task[i].titel == titel) {
-            task.splice(i,1);
-        }
-    }
+    task.splice(i,1);
+    
     localStorage.setItem('tasks', JSON.stringify(task));
     getTasks();
 }
