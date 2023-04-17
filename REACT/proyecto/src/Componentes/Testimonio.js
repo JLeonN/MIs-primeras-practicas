@@ -5,7 +5,7 @@ function Testimonio(props) {
   return (
     <div className='contenedor-testimonio'>
       <img className='imagen-testimonio'
-      src={ require('../Imagenes/DeanWinchester.jpg')}
+      src={ require(`../Imagenes/${props.imagen}.jpg`)}
       alt='Foto de Dean Winchester'/>
       <div className='contenedor-texto-testimonio'>
         <p className='nombre-testimonio'>{props.nombre} de {props.pais}</p>
