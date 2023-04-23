@@ -1,4 +1,5 @@
 import React from "react";
+import '../Hoja-de-estilos/Boton.css';
 
 function Boton(props) {
 
