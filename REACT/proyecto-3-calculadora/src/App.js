@@ -7,10 +7,10 @@ import { useState } from 'react';
 
 function App() {
 
-  const [input, ustInput] = useState('');
+  const [input, setInput] = useState('');
 
   const agregarInput = val => {
-    ustInput (input + val);
+    setInput (input + val);
   };
 
   return (
@@ -48,7 +48,9 @@ function App() {
           <Boton manejarClic={agregarInput}>/</Boton>
         </div>
         <div className='fila'>
-        <BotonDeBorrar>Borrar</BotonDeBorrar>
+        <BotonDeBorrar manejarClic={() => setInput('')}>
+          Borrar
+        </BotonDeBorrar>
         </div>
       </div>
     </div>
