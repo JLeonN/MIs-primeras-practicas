@@ -8,3 +8,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.form {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
