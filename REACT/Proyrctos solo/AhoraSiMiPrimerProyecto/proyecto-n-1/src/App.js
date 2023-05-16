@@ -7,7 +7,12 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Recarga/>
+      <Navbar/>
+        <BrowserRouter>
+          <Routes>
+            <Route path = '/recarga' element= {<Recarga />} />
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }

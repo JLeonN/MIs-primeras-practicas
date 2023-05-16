@@ -5,7 +5,6 @@ import { BrowserRouter, Link } from 'react-router-dom';
 const Navbar = () => {
     return (
       <>
-      <BrowserRouter>
           <nav className="navbar navbar-expand-md bg-body-tertiary">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">Informes</a>
@@ -30,15 +29,12 @@ const Navbar = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li><Link className="dropdown-item" to="/Recarga">Recarga</Link></li>
-                      <li><a className="dropdown-item" href="../componentes/Recarga.js">...</a></li>
-                      <li><a className="dropdown-item" href="#Recarga">...</a></li>
                     </ul>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-      </BrowserRouter>
       </>
     )
 }
