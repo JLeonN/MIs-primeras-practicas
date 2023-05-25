@@ -1,0 +1,7 @@
+.contenedor {
+  height: 650px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

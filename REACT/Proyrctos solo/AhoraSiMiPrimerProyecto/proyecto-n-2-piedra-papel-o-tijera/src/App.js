@@ -1,9 +1,10 @@
 import './App.css';
+import Inicio from '../src/Componentes/Inicio';
 
 function App() {
   return (
     <div>
-      hola
+      <Inicio />
     </div>
   );
 }
