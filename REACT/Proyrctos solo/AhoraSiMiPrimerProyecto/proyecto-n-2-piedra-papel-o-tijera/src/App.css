@@ -1,4 +1,32 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* .contenedorPrincipal {
+  height: 100vh;
+  padding: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.juego {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartasReveladas {
+  height: 40px;
+  padding: 2em;
+  margin: 1em;
 }
