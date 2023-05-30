@@ -1,14 +1,8 @@
-.contenedor {
-  height: 100vh;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.dorso {
+  width: 300px;
+  padding: 2px;
+  margin: 0 auto;
+  -webkit-box-shadow: 6px 6px 6px -4px rgba(0,0,0,0.78);
+  -moz-box-shadow: 6px 6px 6px -4px rgba(0,0,0,0.78);
+  box-shadow: 6px 6px 6px -4px rgba(0,0,0,0.78);
 }
-
-/* @media (max-width: 768px) {
-  .contenedor {
-    height: auto;
-    flex-direction: column;
-  }
-} */
