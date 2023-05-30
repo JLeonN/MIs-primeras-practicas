@@ -1,10 +1,10 @@
 import React from "react";
-import '../Hojas-de-estilos/Dorso.css'
+import '../Hojas-de-estilos/Cartas.css'
 import dorso from '../Imagenes/Dorso.jpg';
 
 export default [
   { 'cartaEnDorso':dorso,
-    'title': '?'
+    // 'title': '?'
   }
 ]
 
