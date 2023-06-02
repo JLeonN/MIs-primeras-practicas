@@ -5,40 +5,58 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import Inicio from '../src/Componentes/Inicio';
 import Dorso from './Componentes/Dorso';
 import Manos from './Componentes/Manos';
+import DorsoAleatorio from './Componentes/CartaAleatoria';
 
 function App() {
   const [mostrarPiedra, setMostrarPiedra] = useState(true);
   const [mostrarPapel, setMostrarPapel] = useState(true);
   const [mostrarTijera, setMostrarTijera] = useState(true);
+  const [mostrarDorsoAleatorio, setMostrarDorsoAleatorio] = useState(false);
 
   const handleClicPiedra = () => {
     setMostrarPiedra(true);
     setMostrarPapel(false);
     setMostrarTijera(false);
+    setMostrarDorsoAleatorio(false);
   };
 
   const handleClicPapel = () => {
     setMostrarPiedra(false);
     setMostrarPapel(true);
     setMostrarTijera(false);
+    setMostrarDorsoAleatorio(false);
   };
 
   const handleClicTijera = () => {
     setMostrarPiedra(false);
     setMostrarPapel(false);
     setMostrarTijera(true);
+    setMostrarDorsoAleatorio(false);
+  };
+
+  const handleMostrarDorsoAleatorio = () => {
+    setMostrarDorsoAleatorio(true);
   };
 
 
   return (
     <div className='vh-100'>
-      <h1 className='col-12 text-center'>
-        Piedra, papel o tijera
-      </h1>
+      <h1 className='col-12 text-center'>Piedra, papel o tijera</h1>
       <div className='row d-flex'>
-        <h2 className='dorsocss text-center display-1'>{Dorso[0].title}</h2>
-        <img src={Dorso[0].cartaEnDorso}
-          className='img-fluid dorso' alt='Dorso de carta'/>
+        {mostrarDorsoAleatorio ? (
+          <div className='card dorso-wrapper text-center'>
+            <DorsoAleatorio className='dorso' />
+          </div>
+        ) : (
+          <>
+            <h2 className='dorsocss text-center display-1'>{Dorso[0].title}</h2>
+            <img
+              src={Dorso[0].cartaEnDorso}
+              className='img-fluid dorso'
+              alt='Dorso de carta'
+            />
+          </>
+        )}
       </div>
       <div className='d-flex'>
         {mostrarPiedra && (
@@ -66,6 +84,13 @@ function App() {
               className='img-fluid dorso' alt='Tijera'
               onClick={handleClicTijera}/>
           </>
+        )}
+      </div>
+      <div>
+        {!mostrarDorsoAleatorio && (
+          <button onClick={handleMostrarDorsoAleatorio}>
+            Mostrar Carta Dorso Aleatoria
+          </button>
         )}
       </div>
     </div>
