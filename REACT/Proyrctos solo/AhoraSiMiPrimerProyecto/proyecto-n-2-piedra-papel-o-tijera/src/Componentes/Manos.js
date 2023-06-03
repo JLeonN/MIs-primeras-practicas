@@ -5,16 +5,16 @@ import papelImg from '../Imagenes/Papel.jpg';
 import tijeraImg from '../Imagenes/Tijera.jpg';
 
 export default [
-  { 'piedra':piedraImg,
-    // 'title':'Piedra'
+  {
+    'piedra': piedraImg,
   },
 
-  { 'papel':papelImg,
-    // 'title':'Papel'
+  {
+    'papel': papelImg,
   },
 
-  { 'tijera':tijeraImg,
-    // 'title':'Tijera'
+  {
+    'tijera': tijeraImg,
   }
 ]
 

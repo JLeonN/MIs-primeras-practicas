@@ -3,7 +3,7 @@
   padding: 2px;
   margin: 0 auto;
   margin-bottom: 20px;
-  -webkit-box-shadow: 6px 6px 6px -4px rgba(0,0,0,0.78);
-  -moz-box-shadow: 6px 6px 6px -4px rgba(0,0,0,0.78);
-  box-shadow: 6px 6px 6px -4px rgba(0,0,0,0.78);
+  -webkit-box-shadow: 6px 6px 6px -4px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 6px 6px 6px -4px rgba(0, 0, 0, 0.78);
+  box-shadow: 6px 6px 6px -4px rgba(0, 0, 0, 0.78);
 }

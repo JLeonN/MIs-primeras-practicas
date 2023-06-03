@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import _ from 'lodash';
 import piedraImg from '../Imagenes/Piedra.jpg';
 import papelImg from '../Imagenes/Papel.jpg';
@@ -14,6 +14,10 @@ function CartaAleatoria() {
     setCarta(cartaAleatoria);
   };
 
+  useEffect(() => {
+    handleObtenerCarta(); // Ejecutar la función al montar el componente
+  }, []);
+
   return (
     <div>
       {carta && (
@@ -23,7 +27,6 @@ function CartaAleatoria() {
           alt='Carta Aleatoria'
         />
       )}
-      <button onClick={handleObtenerCarta}>Obtener Carta Aleatoria</button>
     </div>
   );
 }
