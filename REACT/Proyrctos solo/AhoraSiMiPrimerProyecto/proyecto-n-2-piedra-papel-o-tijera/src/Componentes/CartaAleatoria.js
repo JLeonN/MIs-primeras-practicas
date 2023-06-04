@@ -15,7 +15,7 @@ function CartaAleatoria() {
   };
 
   useEffect(() => {
-    handleObtenerCarta(); // Ejecutar la función al montar el componente
+    handleObtenerCarta();
   }, []);
 
   return (
