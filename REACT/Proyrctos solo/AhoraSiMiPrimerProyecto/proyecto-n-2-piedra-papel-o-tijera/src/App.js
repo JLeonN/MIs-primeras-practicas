@@ -7,6 +7,9 @@ import Dorso from './Componentes/Dorso';
 import Manos from './Componentes/Manos';
 import DorsoAleatorio from './Componentes/CartaAleatoria';
 import Resultado from './Componentes/Resultado'
+import Juego from './Componentes/Logica de los botones';
+import Boton from './Componentes/Boton';
+
 
 function App() {
   const [mostrarPiedra, setMostrarPiedra] = useState(true);
@@ -20,21 +23,28 @@ function App() {
     setMostrarTijera(false);
     setMostrarDorsoAleatorio(true);
   };
-  
+
   const handleClicPapel = () => {
     setMostrarPiedra(false);
     setMostrarPapel(true);
     setMostrarTijera(false);
     setMostrarDorsoAleatorio(true);
   };
-  
+
   const handleClicTijera = () => {
     setMostrarPiedra(false);
     setMostrarPapel(false);
     setMostrarTijera(true);
     setMostrarDorsoAleatorio(true);
   };
-  
+
+  const reiniciarJuego = () => {
+    setMostrarPiedra(true);
+    setMostrarPapel(true);
+    setMostrarTijera(true);
+    setMostrarDorsoAleatorio(false);
+  };
+
   return (
     <div className='vh-100'>
       <h1 className='col-12 text-center'>Piedra, papel o tijera</h1>
@@ -83,6 +93,17 @@ function App() {
             onClick={handleClicTijera}
           />
         )}
+      </div>
+        {/* Boton reiniciar juego */}
+      <div>
+        <Juego 
+          reiniciarJuego={reiniciarJuego}
+          setMostrarPiedra={setMostrarPiedra}
+          setMostrarPapel={setMostrarPapel}
+          setMostrarTijera={setMostrarTijera}
+          setMostrarDorsoAleatorio={setMostrarDorsoAleatorio}>
+          <Boton label="Reiniciar" onClick={reiniciarJuego} />
+        </Juego>
       </div>
     </div>
   );
