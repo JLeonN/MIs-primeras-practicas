@@ -7,7 +7,7 @@ import Dorso from './Componentes/Dorso';
 import Manos from './Componentes/Manos';
 import DorsoAleatorio from './Componentes/CartaAleatoria';
 import Resultado from './Componentes/Resultado'
-import Juego from './Componentes/Logica de los botones';
+import Juego from './Componentes/Juego';
 import Boton from './Componentes/Boton';
 
 
@@ -96,14 +96,9 @@ function App() {
       </div>
         {/* Boton reiniciar juego */}
       <div>
-        <Juego 
+        <Juego
           reiniciarJuego={reiniciarJuego}
-          setMostrarPiedra={setMostrarPiedra}
-          setMostrarPapel={setMostrarPapel}
-          setMostrarTijera={setMostrarTijera}
-          setMostrarDorsoAleatorio={setMostrarDorsoAleatorio}>
-          <Boton label="Reiniciar" onClick={reiniciarJuego} />
-        </Juego>
+        /> 
       </div>
     </div>
   );
