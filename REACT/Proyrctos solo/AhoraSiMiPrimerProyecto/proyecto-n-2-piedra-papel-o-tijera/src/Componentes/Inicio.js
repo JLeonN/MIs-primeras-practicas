@@ -1,15 +1,39 @@
-import React from "react";
-import '../Hojas-de-estilos/Inicio.css'
-import imagenPiedraPapelOTijera from '../Imagenes/Piedra papel o tijera..png';
+// import React from "react";
+// import '../Hojas-de-estilos/Inicio.css'
+// import imagenPiedraPapelOTijera from '../Imagenes/Piedra papel o tijera..png';
 
-function Inicio() {
-  return (
-    <div className="contenedor">
-      <a href="https://www.ejemplo.com">
-        <img src={imagenPiedraPapelOTijera} alt="Piedra papel o tijera." />
-      </a>
-    </div>
-  );
-}
+// function Inicio({ setRuta }) {
+//   const iniciarJuego = () => {
+//     setRuta('juego');
+//   };
 
-export default Inicio;
+//   return (
+//     <div>
+//       <img src={imagenPiedraPapelOTijera} alt="Piedra papel o tijera." />
+//       <button onClick={iniciarJuego}>Iniciar juego</button>
+//     </div>
+//   );
+// }
+
+// export default Inicio;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function Inicio() {
+//   return (
+//     <div className="contenedor">
+//       <img src={imagenPiedraPapelOTijera} alt="Piedra papel o tijera." />
+//     </div>
+//   );
+// }
