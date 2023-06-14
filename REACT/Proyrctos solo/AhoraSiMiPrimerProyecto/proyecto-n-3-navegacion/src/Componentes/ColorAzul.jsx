@@ -11,7 +11,7 @@ function ColorAzul() {
   return (
     <div className='container' style={{ backgroundColor: 'blue' }}>
       <p className="text-primary">Azul</p>
-      <button onClick={volverInicio}>Volver al inicio</button>
+      <button type="button" className="btn btn-light" onClick={volverInicio}>Volver al inicio</button>
     </div>
   );
 }

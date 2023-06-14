@@ -5,7 +5,7 @@ function ColorVerde() {
   return (
     <div className='container' style={{ backgroundColor: 'green' }}>
       <p class="text-success">Verde</p>
-      <Link to="/">Volver al inicio
+      <Link className="btn btn-light" to="/">Volver al inicio
       </Link>
     </div>
   );
