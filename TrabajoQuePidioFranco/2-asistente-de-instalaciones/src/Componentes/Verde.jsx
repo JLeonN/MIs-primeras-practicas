@@ -4,9 +4,7 @@ import Estructura from './Estructura';
 
 function Verde() {
   return (
-    <Router>
-      <Estructura />
-    </Router>
+    <h1>hola de hola </h1>
   );
 }
 

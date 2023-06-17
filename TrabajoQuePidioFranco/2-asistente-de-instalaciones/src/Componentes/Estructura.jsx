@@ -12,7 +12,6 @@ function Estructura(props) {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <Link to={ruta} className="btn btn-primary">{boton}</Link>
       </div>
     </div>
   );
