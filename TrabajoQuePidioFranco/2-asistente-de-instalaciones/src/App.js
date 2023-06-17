@@ -8,18 +8,14 @@ import Verde from './Componentes/Verde';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Estructura
-            backgroundColor="red"
-            titleColor="Rojo"
-            title="Asistente de instalaciones"
-            description="Un texto de ejemplo rápido para construir sobre el título de la tarjeta y componer la mayor parte del contenido de la tarjeta."
-            ruta={<Route path="/verde" element={<Verde />} />}
-            boton="Iniciar"
-          />
-        </Routes>
-      </Router>
+      <Estructura
+        backgroundColor="red"
+        titleColor="Rojo"
+        title="Asistente de instalaciones"
+        description="Un texto de ejemplo rápido para construir sobre el título de la tarjeta y componer la mayor parte del contenido de la tarjeta."
+        ruta={<Route path="/verde" element={<Verde />} />}
+        boton="Iniciar"
+      />
     </div >
   );
 }
