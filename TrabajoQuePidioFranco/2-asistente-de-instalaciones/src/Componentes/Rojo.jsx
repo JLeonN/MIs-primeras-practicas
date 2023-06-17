@@ -1,17 +1,17 @@
 import React from 'react';
 import Estructura from './Estructura';
 
-function Verde() {
+function Rojo() {
   return (
     <Estructura
-    backgroundColor="green"
-    titleColor="Verde"
+    backgroundColor="red"
+    titleColor="Rojo"
     title="Asistente de instalaciones"
     description="Un texto de ejemplo rápido para construir sobre el título de la tarjeta y componer la mayor parte del contenido de la tarjeta."
-    infBoton= "Sigiente"
+    infBoton= "Iniciar"
     ruta= "/color-verde"
     />
   );
 }
 
-export default Verde;
+export default Rojo;
