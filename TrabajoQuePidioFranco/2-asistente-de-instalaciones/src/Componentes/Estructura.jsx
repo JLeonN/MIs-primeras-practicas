@@ -15,7 +15,7 @@ function Estructura(props) {
         <p className="card-text">{description}</p>
 
         {/* Colapsar */}
-        {mostrarColapsar && <Colapsar />}
+        {mostrarColapsar && <Colapsar />
 
         {/* Boton */}
         <Boton
