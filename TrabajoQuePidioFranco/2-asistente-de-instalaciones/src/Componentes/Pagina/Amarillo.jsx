@@ -1,6 +1,6 @@
 import React from 'react';
-import Estructura from './Estructura';
-import Colapsar from './Colapsar';
+import Estructura from '../Estructura';
+import Colapsar from '../Colapsar';
 
 function Amarillo() {
   return (

@@ -6,7 +6,7 @@ function Estructura(props) {
   const { backgroundColor, titleColor, title, description, infBoton, ruta, mostrarColapsar } = props;
 
   return (
-    <div className="card container p-3 m-3 mx-auto" style={{ width: '18rem' }}>
+    <div className="card container p-3 m-3 mx-auto" style={{ width: '22rem' }}>
       <div style={{ backgroundColor }}>
         <h3 className="text-center">{titleColor}</h3>
       </div>
