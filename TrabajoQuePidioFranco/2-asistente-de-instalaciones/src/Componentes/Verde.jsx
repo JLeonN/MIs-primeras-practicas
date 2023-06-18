@@ -9,7 +9,7 @@ function Verde() {
     title="Asistente de instalaciones"
     description="Un texto de ejemplo rápido para construir sobre el título de la tarjeta y componer la mayor parte del contenido de la tarjeta."
     infBoton= "Sigiente"
-    ruta= "/color-verde"
+    ruta= "/color-Amarillo"
     />
   );
 }
