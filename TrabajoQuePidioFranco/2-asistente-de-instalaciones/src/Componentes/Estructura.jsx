@@ -16,18 +16,24 @@ function Estructura(props) {
         <p className="card-text">{description}</p>
 
         {/* Aceptar los términos y condiciones */}
-        {mostrarAceptar && <Aceptar 
-        Casilla={Casilla}  
+        {mostrarAceptar && <Aceptar
+          Casilla={Casilla}
         />}
 
         {/* Colapsar */}
         {mostrarColapsar && <Colapsar />}
 
         {/* Boton */}
-        <Boton
-          infBoton={infBoton}
-          ruta={ruta}
-        />
+        <div className='col'>
+          <Boton
+            infBoton={infBoton}
+            ruta={ruta}
+          />
+          <Boton
+            infBoton="Cancelar"
+            ruta="/"
+            />
+        </div>
       </div>
     </div>
   );
