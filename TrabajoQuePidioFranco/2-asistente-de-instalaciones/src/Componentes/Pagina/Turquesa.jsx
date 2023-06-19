@@ -8,6 +8,8 @@ function Turquesa() {
     titleColor="Turquesa"
     title="Asistente de instalaciones"
     description="Aceptar los términos y condiciones"
+    mostrarAceptar= "<Aceptar />"
+    Casilla=" Aceptar los términos"
     infBoton= "Sigiente"
     ruta= "/color-amarillo"
     />

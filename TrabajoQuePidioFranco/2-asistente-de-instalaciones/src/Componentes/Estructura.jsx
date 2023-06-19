@@ -1,9 +1,10 @@
 import React from 'react';
 import Boton from './Boton';
 import Colapsar from './Colapsar';
+import Aceptar from './Aceptar';
 
 function Estructura(props) {
-  const { backgroundColor, titleColor, title, description, infBoton, ruta, mostrarColapsar } = props;
+  const { backgroundColor, titleColor, title, description, infBoton, ruta, mostrarColapsar, mostrarAceptar, Casilla } = props;
 
   return (
     <div className="card container p-3 m-3 mx-auto" style={{ width: '22rem' }}>
@@ -14,8 +15,13 @@ function Estructura(props) {
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
 
+        {/* Aceptar los términos y condiciones */}
+        {mostrarAceptar && <Aceptar 
+        Casilla={Casilla}  
+        />}
+
         {/* Colapsar */}
-        {mostrarColapsar && <Colapsar />
+        {mostrarColapsar && <Colapsar />}
 
         {/* Boton */}
         <Boton
