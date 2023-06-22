@@ -7,6 +7,7 @@ import Rojo from './Componentes/Pagina/Rojo';
 import Amarillo from './Componentes/Pagina/Amarillo';
 import Turquesa from './Componentes/Pagina/Turquesa';
 import Naranjado from './Componentes/Pagina/Naranjado';
+import Gris from './Componentes/Pagina/Gris';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/color-Amarillo" element={<Amarillo />} />
         <Route path="/color-Turquesa" element={<Turquesa />} />
         <Route path="/color-Negro" element={<Naranjado />} />
+        <Route path="*" element={<Gris />} /> 
       </Routes>
     </div >
   );
