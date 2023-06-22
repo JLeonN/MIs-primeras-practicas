@@ -7,7 +7,8 @@ function Verde() {
     backgroundColor="green"
     titleColor="Verde"
     title="Asistente de instalaciones"
-    description="Un texto de ejemplo rápido para construir sobre el título de la tarjeta y componer la mayor parte del contenido de la tarjeta."
+    description="En esta sección, podrás obtener soporte técnico, solucionar problemas de instalación y recibir consejos para optimizar tus programas. Estoy listo para resolver tus dudas y asegurarme de que obtengas el máximo rendimiento de tus aplicaciones instaladas. ¡Déjame ayudarte!"
+    mostrarBoton= "<botonCancelar />"
     infBoton= "Sigiente"
     ruta= "/color-Turquesa"
     />

@@ -7,7 +7,7 @@ function Rojo() {
     backgroundColor="red"
     titleColor="Rojo"
     title="Asistente de instalaciones"
-    description="Un texto de ejemplo rápido para construir sobre el título de la tarjeta y componer la mayor parte del contenido de la tarjeta."
+    description="Bienvenido al Asistente de Instalaciones. Aquí podrás instalar una variedad de programas y software en tu PC de forma sencilla y rápida. Te guiaré paso a paso a través del proceso de instalación para que puedas disfrutar de nuevas y emocionantes herramientas digitales. ¡Comencemos!"
     infBoton= "Iniciar"
     ruta= "/color-verde"
     />

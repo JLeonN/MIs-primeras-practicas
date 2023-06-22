@@ -9,8 +9,9 @@ function Amarillo() {
     titleColor="Amarillo"
     title="Asistente de instalaciones"
     mostrarColapsar= "<Colapsar />"
+    mostrarBoton= "<botonCancelar />"
     infBoton= "Sigiente"
-    ruta= "/color-Amarillo"
+    ruta= "/color-Negro"
     />
   );
 }
