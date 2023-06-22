@@ -20,7 +20,8 @@ function ColorVerde() {
         />{' '}
         Seleccione para ir al inicio
       </div>
-      <Link className="btn btn-light" to={checkboxChecked ? "/" : "#"}>Volver al inicio</Link>
+      <Link className="btn btn-light" to={checkboxChecked ? "/" : "#"}>Volver al inicio
+      </Link>
     </div>
   );
 }

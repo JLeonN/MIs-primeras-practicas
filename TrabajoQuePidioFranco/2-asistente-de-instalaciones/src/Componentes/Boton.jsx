@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Boton(props) {
-  const { infBoton, ruta } = props;
+  const { infBoton, ruta, } = props;
 
   return (
       <Link to={ruta}>

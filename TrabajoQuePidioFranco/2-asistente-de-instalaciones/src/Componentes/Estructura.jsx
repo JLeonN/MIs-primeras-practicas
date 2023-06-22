@@ -24,15 +24,19 @@ function Estructura(props) {
         {mostrarColapsar && <Colapsar />}
 
         {/* Boton */}
-        <div className='col'>
-          <Boton
-            infBoton={infBoton}
-            ruta={ruta}
-          />
-          <Boton
-            infBoton="Cancelar"
-            ruta="/"
+        <div className='col-10 d-flex justify-content-between'>
+          <div className=''>
+            <Boton
+              infBoton={infBoton}
+              ruta={ruta}
             />
+          </div>
+          <div className=''>
+            <Boton
+              infBoton="Cancelar"
+              ruta="/"
+            />
+          </div>
         </div>
       </div>
     </div>
