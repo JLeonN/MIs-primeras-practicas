@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Estructura from '../Estructura';
 
-function Turquesa() {
+function Aceptar() {
+
   return (
-    <Estructura
+    <div>
+      <Estructura 
     backgroundColor="turquoise"
     titleColor="Turquesa"
     title="Asistente de instalaciones"
@@ -15,7 +17,8 @@ function Turquesa() {
     infBoton= "Sigiente"
     ruta= "/color-amarillo"
     />
+    </div>
   );
 }
 
-export default Turquesa;
+export default Aceptar;

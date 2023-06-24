@@ -1,6 +1,5 @@
 import React from 'react';
 import Estructura from '../Estructura';
-import Colapsar from '../Colapsar';
 
 function Amarillo() {
   return (
@@ -8,8 +7,8 @@ function Amarillo() {
     backgroundColor="yellow"
     titleColor="Amarillo"
     title="Asistente de instalaciones"
-    mostrarColapsar= "<Colapsar />"
-    mostrarBoton= "<botonCancelar />"
+    mostrarColapsar= {true}
+    mostrarBoton= {true}
     infBoton= "Sigiente"
     ruta= "/color-Negro"
     />

@@ -19,6 +19,7 @@ function Aceptar(props) {
         {' '}
       </div>
     </div>
+
   );
 }
 
