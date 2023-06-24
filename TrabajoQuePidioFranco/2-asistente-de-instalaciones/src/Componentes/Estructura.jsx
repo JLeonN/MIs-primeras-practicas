@@ -5,7 +5,7 @@ import Aceptar from './Aceptar';
 import Carga from './Carga';
 
 function Estructura(props) {
-  const { backgroundColor, titleColor, title, description, infBoton, ruta, mostrarColapsar, mostrarAceptar, mostrarBoton, Casilla, botonCancelar } = props;
+  const { backgroundColor, titleColor, title, description, infBoton, ruta, mostrarColapsar, mostrarAceptar, mostrarBoton, botonCancelar } = props;
 
   return (
     <div className="card container p-3 m-3 mx-auto" style={{ width: '22rem' }}>
@@ -17,8 +17,7 @@ function Estructura(props) {
         <p className="card-text">{description}</p>
 
         {/* Aceptar los términos y condiciones en Turquesa */}
-        {mostrarAceptar && <Aceptar
-          Casilla={Casilla} />}
+        {mostrarAceptar && <Aceptar mostrarBoton={mostrarBoton} />}
 
         {/* Carga en Amarillo */}
         <div className='p-3'>

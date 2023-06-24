@@ -11,7 +11,6 @@ function Turquesa() {
     Marca la casilla para confirmar la aceptación de los términos y condiciones. ¡Listo para comenzar!"
     mostrarAceptar= {true}
     mostrarBoton= {true}
-    Casilla=" Aceptar los términos"
     infBoton= "Sigiente"
     ruta= "/color-amarillo"
     />
