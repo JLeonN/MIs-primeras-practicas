@@ -43,7 +43,6 @@ function App() {
       <footer className="footer">
         &copy; Master en JavaScript ES12 y TypeScript - <a href="/#"></a>
       </footer>
-
     </div>
   );
 }
