@@ -33,14 +33,21 @@ export const Crear = () => {
 
   const guardarEnnnStorage = peli => {
 
-    // Conseguir los elementos que ya tennemos enn Localstorage
+    // Conseguir los elementos que ya tennemos en Localstorage
+    let elementos = JSON.parse(localStorage.getItem("pelis"));
 
     // comprobar si es una array
+    if(Array.isArray(elementos)){
+      elementos.push(peli);
+    }else{
+      elementos = [peli];
+    }
 
-    // guardar enn el Localstorage
+    // guardar en el Localstorage
+    localStorage.setItem("pelis", JSON.stringify(elementos));
 
     // devolver objeto guardado
-
+    return peli;
   }
 
   return (
