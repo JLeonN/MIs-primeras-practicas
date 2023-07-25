@@ -1,36 +1,36 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const Listado = () => {
+
+  const [listadoState, setListadoState] = useState([])
+
+  useEffect(() => {
+
+    console.log("Peliculass del listado");
+    conseguirPeliculas();
+    
+  }, []);
+
+  const conseguirPeliculas = () => {
+    let peliculas = JSON.parse(localStorage.getItem("pelis"));
+
+    setListadoState(peliculas);
+  }
+
   return (
     <>
-    <article className="peli-item">
-        <h3 className="title">Desarrollo WEB</h3>
-        <p className="descripcion">Mis peliculas</p>
+      {listadoState.map(peli => {
 
-        <button className="edit">Editar</button>
-        <button className="delete">Borrar</button>
-      </article>
-      <article className="peli-item">
-        <h3 className="title">Desarrollo WEB</h3>
-        <p className="descripcion">Mis peliculas</p>
+        return (
+          <article className="peli-item">
+            <h3 className="title">Desarrollo WEB</h3>
+            <p className="descripcion">Mis peliculas</p>
 
-        <button className="edit">Editar</button>
-        <button className="delete">Borrar</button>
-      </article>
-      <article className="peli-item">
-        <h3 className="title">Desarrollo WEB</h3>
-        <p className="descripcion">Mis peliculas</p>
-
-        <button className="edit">Editar</button>
-        <button className="delete">Borrar</button>
-      </article>
-      <article className="peli-item">
-        <h3 className="title">Desarrollo WEB</h3>
-        <p className="descripcion">Mis peliculas</p>
-
-        <button className="edit">Editar</button>
-        <button className="delete">Borrar</button>
-      </article>
+            <button className="edit">Editar</button>
+            <button className="delete">Borrar</button>
+          </article>
+        );
+      })}
     </>
   )
 }
