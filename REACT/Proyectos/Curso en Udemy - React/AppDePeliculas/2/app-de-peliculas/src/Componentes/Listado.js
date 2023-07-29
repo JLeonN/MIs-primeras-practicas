@@ -4,18 +4,18 @@ export const Listado = () => {
 
   const [listadoState, setListadoState] = useState([])
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    console.log("Peliculass del listado");
-    conseguirPeliculas();
+  //   console.log("Peliculas del listado");
+  //   conseguirPeliculas();
     
-  }, []);
+  // }, []);
 
-  const conseguirPeliculas = () => {
-    let peliculas = JSON.parse(localStorage.getItem("pelis"));
+  // const conseguirPeliculas = () => {
+  //   let peliculas = JSON.parse(localStorage.getItem("pelis"));
 
-    setListadoState(peliculas);
-  }
+  //   setListadoState(peliculas);
+  // }
 
   return (
     <>
@@ -25,7 +25,6 @@ export const Listado = () => {
           <article className="peli-item">
             <h3 className="title">Desarrollo WEB</h3>
             <p className="descripcion">Mis peliculas</p>
-
             <button className="edit">Editar</button>
             <button className="delete">Borrar</button>
           </article>

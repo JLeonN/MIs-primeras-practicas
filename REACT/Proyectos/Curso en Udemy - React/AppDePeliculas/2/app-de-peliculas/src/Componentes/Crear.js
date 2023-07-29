@@ -18,6 +18,7 @@ export const Crear = () => {
     let titulo = target.title.value;
     let descripcion = target.descripcion.value;
 
+    
     // Crear objeto de la pelicula a guardar
     let peli = {
       id: new Date().getTime(),
