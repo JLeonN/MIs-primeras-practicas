@@ -15,7 +15,7 @@ export const Crear = () => {
 
 
     let target = e.target;
-    let titulo = target.title.value;
+    let titulo = target.titulo.value;
     let descripcion = target.descripcion.value;
 
     
@@ -43,7 +43,8 @@ export const Crear = () => {
 
       <form onSubmit={conseguirDatosForm}>
         <input type="text"
-          id="title"
+          id="titulo"
+          name='titulo'
           placeholder="Titulo" />
 
         <textarea id="descripcion"
