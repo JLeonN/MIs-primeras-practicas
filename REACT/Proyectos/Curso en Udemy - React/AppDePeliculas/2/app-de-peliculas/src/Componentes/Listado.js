@@ -9,7 +9,6 @@ export const Listado = ({listadoState, setListadoState}) => {
 
   useEffect(() => {
 
-    console.log("Lol peliculas ahora si puto");
     conseguirPeliculas();
 
   }, []);
@@ -50,7 +49,11 @@ export const Listado = ({listadoState, setListadoState}) => {
               {/* Forulario de edicion */}
               {editar === peli.id && (
                 
-                <Editar peli={peli} />
+                <Editar peli={peli} 
+                        conseguirPeliculas={conseguirPeliculas}
+                        setEditar={setEditar}
+                        setListadoState={setListadoState}
+                />
 
               )}
 
