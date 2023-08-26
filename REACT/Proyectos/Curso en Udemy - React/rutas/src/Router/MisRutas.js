@@ -5,11 +5,14 @@ import {Portafolio} from "../Comonentes/Portafolio";
 import {Servicios} from "../Comonentes/Servicios";
 import {Curriculum} from "../Comonentes/Curriculum";
 import {Contacto} from "../Comonentes/Contacto";
+import { HeaderNav } from '../Comonentes/Layout/HeaderNav';
+import { Footer } from '../Comonentes/Layout/Footer';
 
 export const MisRutas = () => {
   return (
     <BrowserRouter>
       {/* Header y Navegacion */}
+      <HeaderNav />
 
       {/* Contenido central */}
       <Routes>
@@ -22,6 +25,8 @@ export const MisRutas = () => {
       </Routes>
 
       {/* Footer */}
+      <Footer />
+
     </BrowserRouter>
   )
 }

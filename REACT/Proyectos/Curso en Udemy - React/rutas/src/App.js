@@ -4,9 +4,9 @@ import { MisRutas } from './Router/MisRutas';
 
 function App() {
   return (
-    <>
+    <div className='layout'>
     <MisRutas />
-    </>
+    </div>
   );
 }
 
