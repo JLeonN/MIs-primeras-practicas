@@ -2,6 +2,14 @@ import React from 'react'
 
 export const Curriculum = () => {
   return (
-    <div>Curriculum</div>
+    <div className='page'>
+      <h1>Curriculum</h1>
+
+      <h2>Exeriencia</h2>
+      <h2>Connociientos</h2>
+      <h2>Educación</h2>
+      <h2>Proyectos personales</h2>
+      <h2>Otros</h2>
+      </div>
   )
 }
