@@ -22,6 +22,6 @@ export const Servicios = () => {
         </article>
 
       </section>
-      </div>
+    </div>
   )
 }

@@ -10,6 +10,6 @@ export const Curriculum = () => {
       <h2>Educación</h2>
       <h2>Proyectos personales</h2>
       <h2>Otros</h2>
-      </div>
+    </div>
   )
 }

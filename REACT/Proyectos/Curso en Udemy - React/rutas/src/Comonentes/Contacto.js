@@ -12,6 +12,6 @@ export const Contacto = () => {
         <textarea type='text' placeholder='Motivo de contacto' />
         <input type='submit' value="Enviar" />
       </form>
-      </div>
+    </div>
   )
 }
