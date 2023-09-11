@@ -1,0 +1,12 @@
+.boton {
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: #fa4529;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.boton:hover {
+  background-color: rgb(26, 137, 26);
+}
