@@ -7,11 +7,27 @@
 
 // "Hola, Jorge!"
 
-function saludar() {
-  document.getElementById('saludar'); aca.innerText = 'hola Jorge'
-}
+// function saludar() {
+//   document.getElementById('saludar'); aca.innerText = 'hola Jorge'
+// }
 
 
 // function saludar() {
 //   document.write("Hola Jorge")
 // };
+
+
+// let nombre = "Jorge";
+
+// function saludar(nombre) {
+//   let saludo = "Hola, " + nombre;
+//   return saludo;
+// }
+
+// console.log(saludo);
+
+
+
+// function saludar(valor) {
+//   document.getElementById("aca").innerHTML=valor
+// }
