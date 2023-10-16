@@ -1,3 +1,12 @@
+const fs = require('fs');
+const pedir = msg => {
+  fs.writeSync(1, String(msg));
+  let s = '', buf = Buffer.alloc(1);
+  while (buf[0] - 10 && buf[0] - 13)
+    s += buf, fs.readSync(0, buf, 0, 1, 0);
+  return s.slice(1);
+};
+
 function sumar(num1, num2) {
   return num1 + num2;
 };
@@ -13,11 +22,6 @@ function dividir(num1, num2) {
 function multiplicar(num1, num2) {
   return num1 * num2;
 };
-
-let resultadoSumar = sumar(50, 25);
-let resultadoRestar = restar(90, 15);
-let resultadoDividir = dividir(150, 2);
-let resultadoMultiplicar = multiplicar(5, 15);
 
 
 function calcular(num1, operacion, num2) {
@@ -35,4 +39,14 @@ function calcular(num1, operacion, num2) {
   }
 }
 
-console.log(calcular(50, "+", 25));
+// console.log(calcular(50, "+", 25));
+
+function pedirValores() {
+  const num1 = pedir("Primer numero");
+  // const lol = pedir("lol");
+  const num2 = pedir("Segundo numero");
+
+  return calcular(num1, operacion, num2);
+};
+
+console.log (pedirValores ());
